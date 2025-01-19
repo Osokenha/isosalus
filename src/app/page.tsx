@@ -16,7 +16,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative z-10 max-w-4xl mx-auto text-center p-8">
         <h1 className="text-7xl font-bold mb-20 text-white">Welcome to<br />IsoSalus Initiative</h1>
-        <p className="text-2xl mb-8 text-white">"Serving Underserved Communities Across the USA"</p>
+        <p className="text-2xl mb-8 text-white">&quot;Serving Underserved Communities Across the USA&quot;</p>
         <p className="text-xl mb-12 text-white">
           We empower high school students and first-generation pre-health undergraduates 
           to create a healthier, more equitable society through engagement and inspiration.
