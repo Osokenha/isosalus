@@ -15,17 +15,17 @@ export default function AboutPage() {
       />
       <div className="absolute inset-0 bg-black bg-opacity-50" />
       
-      <div className="relative z-10 container mx-auto px-4 py-8 mt-24 space-y-12 text-white">
+      <div className="relative z-10 container mx-auto px-4 py-8 mt-28 sm:mt-24 space-y-12 text-white">
         <section className="space-y-4 max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-blue-400">Our Vision:</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed"> {/* Updated text size */}
             We are dedicated to building a future where every individual in underserved communities has access to quality healthcare and basic needs, supported by the dedication and compassion of the next generation of healthcare leaders. We strive to create a sustainable support network for marginalized populations through education, advocacy, and service, ensuring a healthier and equitable environment and fostering the tradition of giving back to the community. We envision every underserved community having access to the care and resources needed to thrive. Through collaborative fundraising and health awareness initiatives with healthcare professionals of various fields, such as pharmacists, physicians, PAs, and dedicated volunteer support, we aim to bridge the healthcare gap and ensure that all individuals can lead healthy, fulfilling lives regardless of their background.
           </p>
         </section>
 
         <section className="space-y-4 max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-blue-400">Our Mission:</h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed"> {/* Updated text size */}
             Our mission is to empower underserved communities across the USA by engaging and inspiring high school students and first-generation pre-health undergraduates to actively participate in creating a healthier, more equitable society. Through partnerships with colleges and affiliates, we provide opportunities for students to contribute to health awareness campaigns, fundraising projects, and volunteering events, addressing healthcare gaps for both women and men. Our ambassadors collaborate to foster a meaningful community impact, aiming to improve access to essential health services and education for those in need.
           </p>
         </section>
