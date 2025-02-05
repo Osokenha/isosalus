@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Merriweather } from 'next/font/google'
+import {Merriweather} from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"

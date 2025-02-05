@@ -59,7 +59,7 @@ export default function DonatePage() {
                 </div>
               </div>
               <p className="mt-6 text-sm text-gray-600">
-                Please send with the Friends and Family option. For any questions about donations or to discuss other ways to contribute, please contact our fundraising team at fundraising@isosalus.org.
+                Please send with the Friends and Family option. For any questions about donations or to discuss other ways to contribute, please contact our fundraising team at IsoInitiative@gmail.com.
               </p>
             </CardContent>
           </Card>
