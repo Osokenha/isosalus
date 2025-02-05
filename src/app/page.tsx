@@ -25,7 +25,7 @@ export default function HomePage() {
             </h1>
             
             <p className="text-xl sm:text-2xl text-white font-semibold mb-8">
-              "Serving Underserved Communities Across the USA"
+              &quot;Serving Underserved Communities Across the USA"
             </p>
             
             <p className="text-lg sm:text-xl text-white max-w-3xl mx-auto mb-12">

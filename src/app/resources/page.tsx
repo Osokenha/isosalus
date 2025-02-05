@@ -98,7 +98,7 @@ export default function ResourcesPage() {
                 <CardContent>
                   {volunteerSuccess && (
                     <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
-                      Sign-up successful! We'll be in touch soon.
+                      Sign-up successful! We&apos;ll be in touch soon.
                     </div>
                   )}
                   <form onSubmit={handleVolunteerSubmit} className="space-y-4">
@@ -167,7 +167,7 @@ export default function ResourcesPage() {
                 <CardContent>
                   {partnerSuccess && (
                     <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
-                      Partnership request submitted successfully! We'll get back to you soon.
+                      Partnership request submitted successfully! We&apos;ll get back to you soon.
                     </div>
                   )}
                   <form onSubmit={handlePartnerSubmit} className="space-y-4">
