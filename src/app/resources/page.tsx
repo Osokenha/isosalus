@@ -48,37 +48,25 @@ export default function ResourcesPage() {
       <div className="absolute inset-0 bg-black bg-opacity-50 -z-10" />
       <div className="z-10 container mx-auto px-4 py-8 mt-24">
         {/* Upcoming Events */}
-        <Card className="mb-12 bg-white bg-opacity-95 shadow-xl">
+        <Card className="mb-12 bg-white bg-opacity-95 shadow-xl transition-all duration-200">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center text-gray-800">Upcoming Events</CardTitle>
           </CardHeader>
           <CardContent>
             <ul className="space-y-6 text-center">
               <li className="pb-4 border-b border-gray-200">
-                <h3 className="font-semibold text-black">Community Health Fair</h3>
-                <p className="text-sm text-gray-600">Date: August 15, 2023 | Location: Central Park</p>
-                <p className="text-sm text-gray-600 mb-2">Free health screenings and wellness workshops for all.</p>
-                <Button variant="outline" size="sm">RSVP Now</Button>
-              </li>
-              <li className="pb-4 border-b border-gray-200">
-                <h3 className="font-semibold text-black">Youth Mentorship Program Launch</h3>
-                <p className="text-sm text-gray-600">Date: September 1, 2023 | Location: Community Center</p>
-                <p className="text-sm text-gray-600 mb-2">Kickoff event for our new youth mentorship initiative.</p>
-                <Button variant="outline" size="sm">RSVP Now</Button>
-              </li>
-              <li>
-                <h3 className="font-semibold text-black">Annual Charity Gala</h3>
-                <p className="text-sm text-gray-600">Date: October 10, 2023 | Location: Grand Hotel</p>
-                <p className="text-sm text-gray-600 mb-2">Join us for an evening of fundraising and celebration.</p>
+                <h3 className="font-semibold text-black">IN PROGRESS</h3>
+                <p className="text-sm text-gray-600">Date: TBD | Location: TBD</p>
+                <p className="text-sm text-gray-600 mb-2">Join our mail list to be notified of upcoming events</p>
                 <Button variant="outline" size="sm">RSVP Now</Button>
               </li>
             </ul>
           </CardContent>
         </Card>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-auto">
           {/* Event/Volunteer Sign-ups */}
-          <Card className="bg-white bg-opacity-95 shadow-xl">
+          <Card className="bg-white bg-opacity-95 shadow-xl transition-all duration-200">
             <CardHeader>
               <CardTitle className="text-2xl font-bold text-center text-gray-800">Event/Volunteer Sign-up</CardTitle>
             </CardHeader>
@@ -142,7 +130,7 @@ export default function ResourcesPage() {
           </Card>
 
           {/* Partnership Opportunities */}
-          <Card className="bg-white bg-opacity-95 shadow-xl">
+          <Card className="bg-white bg-opacity-95 shadow-xl transition-all duration-200">
             <CardHeader>
               <CardTitle className="text-2xl font-bold text-center text-gray-800">Partnership Opportunities</CardTitle>
             </CardHeader>
@@ -178,12 +166,12 @@ export default function ResourcesPage() {
                       <SelectValue placeholder="Select request type" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="webinar text-black">Host Webinar</SelectItem>
-                      <SelectItem value="chapter text-black">New Chapter Request</SelectItem>
+                      <SelectItem value="webinar">Host Webinar</SelectItem>
+                      <SelectItem value="chapter">New Chapter Request</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
-                {eventRequest === 'webinar text-black' && (
+                {eventRequest === 'webinar' && (
                   <div>
                     <label htmlFor="chapterRegion" className="block text-sm font-medium text-gray-700 mb-1">Target Region</label>
                     <Input 
@@ -205,6 +193,9 @@ export default function ResourcesPage() {
             </CardContent>
           </Card>
         </div>
+        <p className="text-white text-center mt-12 text-lg">
+          Current forms do not work. We apologize for the inconvenience and are working to fully implement them. In the meantime please email all required information to IsoInitiative@gmail.com
+        </p>
       </div>
     </div>
   )

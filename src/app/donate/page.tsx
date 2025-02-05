@@ -28,17 +28,7 @@ export default function DonatePage() {
               </p>
               <ul className="space-y-4">
                 <li>
-                  <h3 className="font-semibold text-black">Annual Charity Gala</h3>
-                  <p className="text-sm text-gray-600">Date: PLACEHOLDER</p>
-                  <p className="text-sm text-gray-600">Location: PLACEHOLDER</p>
-                </li>
-                <li>
-                  <h3 className="font-semibold text-black">Community Fun Run</h3>
-                  <p className="text-sm text-gray-600">Date: PLACEHOLDER</p>
-                  <p className="text-sm text-gray-600">Location: PLACEHOLDER</p>
-                </li>
-                <li>
-                  <h3 className="font-semibold text-black">Holiday Fundraiser</h3>
+                  <h3 className="font-semibold text-black">IN PROGRESS</h3>
                   <p className="text-sm text-gray-600">Date: PLACEHOLDER</p>
                   <p className="text-sm text-gray-600">Location: PLACEHOLDER</p>
                 </li>
@@ -69,7 +59,7 @@ export default function DonatePage() {
                 </div>
               </div>
               <p className="mt-6 text-sm text-gray-600">
-                For any questions about donations or to discuss other ways to contribute, please contact our fundraising team at fundraising@isosalus.org.
+                Please send with the Friends and Family option. For any questions about donations or to discuss other ways to contribute, please contact our fundraising team at fundraising@isosalus.org.
               </p>
             </CardContent>
           </Card>

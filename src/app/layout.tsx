@@ -1,12 +1,17 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Merriweather } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import { HomeIcon, InfoIcon, BookOpenIcon, HeartIcon, MailIcon } from 'lucide-react'
+import React from 'react'; // Import React
 
-const inter = Inter({ subsets: ['latin'] })
+const merriweather = Merriweather({
+  weight: ['300', '400', '700', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'IsoSalus Initiative',
@@ -19,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={merriweather.className}>
+      <body className={merriweather.className}>
         <div className="min-h-screen flex flex-col relative">
           <header className="absolute top-0 left-0 right-0 z-50">
             <div className="w-full px-2 sm:px-4 py-4 flex items-center justify-between">
@@ -57,10 +62,35 @@ export default function RootLayout({
             {children}
           </main>
           <footer className="bg-gray-800 text-white py-8 relative z-10">
-            <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
-              <p>&copy; 2023 IsoSalus Initiative. All rights reserved.</p>
-            </div>
-          </footer>
+  <div className="w-full px-4 sm:px-6 lg:px-8 text-center space-y-4">
+    <p>&copy; 2025 IsoSalus Initiative. All rights reserved.</p>
+    <div className="flex justify-center items-center space-x-4">
+      <a
+        href="https://www.instagram.com/isi_initiative?utm_source=qr"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white hover:text-blue-400 transition-colors duration-300"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="feather feather-instagram"
+        >
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
         </div>
       </body>
     </html>
