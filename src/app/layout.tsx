@@ -1,6 +1,6 @@
 import './globals.css'
-import type { Metadata } from 'next'
-import {Merriweather} from 'next/font/google'
+import { Metadata } from 'next'
+import { Merriweather } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
@@ -16,6 +16,7 @@ const merriweather = Merriweather({
 export const metadata: Metadata = {
   title: 'IsoSalus Initiative',
   description: 'Serving Underserved Communities Across the USA',
+  // Remove any manual favicon configuration here - Next.js will handle it automatically
 }
 
 export default function RootLayout({
